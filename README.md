@@ -82,8 +82,10 @@ Le dataset contient **3 types de variables** :
 - Normaliser les variables continues (âge, pression, IMC).
 
 ### 📌 **4. Division des données**
+Les données sont divisées en deux ensembles : un ensemble d'entraînement (80%) pour ajuster le modèle et un ensemble de test (20%) pour évaluer sa performance sur des données inédites.  
+Cette séparation permet de s'assurer que le modèle ne surapprend pas sur les données d'entraînement et qu'il généralise bien aux nouveaux patients.  
 
-## 🤖 Modélisation
+## 🤖 **5. Modélisation**
 
 ### 🔍 1. Choix des modèles
 Plusieurs modèles de classification peuvent être testés pour prédire la présence d'une maladie cardiovasculaire :
@@ -104,7 +106,7 @@ Une fois le meilleur modèle sélectionné, il est testé sur l’ensemble de te
 
 ---
 
-## 🚀 Déploiement
+## 🚀 **6. Déploiement**
 
 ### 📦 1. Sauvegarde du modèle
 Le modèle final est sauvegardé sous forme d’un fichier pour pouvoir être réutilisé sans nécessiter un nouvel entraînement.
@@ -117,14 +119,14 @@ Avant le déploiement, des tests sont réalisés pour valider le bon fonctionnem
 
 ---
 
-## 🎯 Impact et Applications
+## 🎯 **7. Impact et Applications**
 - **Aide au diagnostic médical** : Prédire le risque cardiovasculaire d’un patient en fonction de ses caractéristiques médicales et habitudes de vie.
 - **Prévention des MCV** : Identifier les individus à haut risque pour une prise en charge précoce et une amélioration des comportements à risque.
 - **Optimisation des politiques de santé** : Utiliser les prédictions du modèle pour mieux orienter les campagnes de prévention et de sensibilisation.
 
 ---
 
-## 🔥 Résumé
+## 🔥 **8. Résumé**
 1. **Analyse descriptive** : Exploration et visualisation des variables pour comprendre les tendances et relations.
 2. **Préparation des données** : Nettoyage, gestion des valeurs aberrantes, normalisation et encodage des variables.
 3. **Modélisation** : Sélection du meilleur modèle et optimisation des hyperparamètres.
